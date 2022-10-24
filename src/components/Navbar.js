@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import HamburgerMenu from "./HamburgerMenu";
 
 const Navbar = () => {
   return (
@@ -9,6 +10,7 @@ const Navbar = () => {
       <Link to="." className="font-[Monoton] text-3xl col-span-4">
         Figure
       </Link>
+      <HamburgerMenu />
       <Link
         to="."
         className="font-[Poppins] col-span-2 text-xl hidden md:block"
