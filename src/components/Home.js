@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div className="grid grid-cols-12 w-11/12 mx-auto flex-1 md:content-center md:gap-y-[100px] 2xl:gap-y-px">
       <h1
-        className="col-span-12 md:col-span-6 font-PassionOne bg-primary bg-clip-text text-transparent md:text-black md:bg-none md:bg-clip-border 
+        className="self-center text-center sm:text-left col-span-12 md:col-span-6 font-PassionOne bg-primary bg-clip-text text-transparent md:text-black md:bg-none md:bg-clip-border 
       capitalize md:text-[50px] text-[13vw] lg:text-[70px] xl:text-[80px] 2xl:text-[96px]"
       >
         Buy your favorite character action figures here
