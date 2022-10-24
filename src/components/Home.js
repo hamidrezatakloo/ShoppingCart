@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Home = () => {
   return (
     <div className="grid grid-cols-12 w-11/12 mx-auto flex-1 md:content-center">
@@ -9,6 +11,12 @@ const Home = () => {
         src="./kakashi_LEE.webp"
         className="hidden md:block col-start-7 col-span-6 "
       />
+      <Link
+        to="/store"
+        className="self-start capitalize text-white bg-black py-4 px-8 w-fit whitespace-nowrap rounded text-lg font-semibold font-[Poppins]"
+      >
+        go to store
+      </Link>
     </div>
   );
 };
