@@ -11,9 +11,14 @@ module.exports = {
           "0%": { width: "0" },
           "100%": { width: "66.666667%" },
         },
+        close: {
+          "0%": { width: "66.666667%" },
+          "100%": { width: "0" },
+        },
       },
       animation: {
-        drop: "drop 1s ease-out forwards",
+        drop: "drop 1s ease-in-out forwards",
+        close: "close 1s ease-in-out forwards",
       },
     },
   },
