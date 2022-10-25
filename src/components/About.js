@@ -1,7 +1,11 @@
 const About = () => {
   return (
     <div className="grid grid-cols-12 w-11/12 mx-auto gap-[20px] flex-1">
-      <img alt="actionFigure" src="./about.webp" className="col-span-6" />
+      <img
+        alt="actionFigure"
+        src="./about.webp"
+        className="col-span-6 max-h-[740px]"
+      />
       <div className="col-span-6 flex justify-center items-center flex-col gap-20 capitalize">
         <h2 className="font-PassionOne text-5xl">what is an action figure</h2>
         <p className="font-[Poppins] text-2xl leading-10">
