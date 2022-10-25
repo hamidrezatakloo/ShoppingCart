@@ -6,9 +6,6 @@ module.exports = {
       fontFamily: {
         PassionOne: "Passion One",
       },
-      backgroundImage: {
-        primary: "linear-gradient(to right , #6366f1, #a855f7 ,#ec4899) ",
-      },
     },
   },
   plugins: [],
