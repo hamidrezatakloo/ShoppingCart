@@ -1,7 +1,7 @@
 const Card = ({ src, title, price }) => {
   return (
     <div className="col-span-12  sm:col-span-6 md:col-span-6 lg:col-span-4 flex flex-col justify-around items-center">
-      <img alt={title} src={src} />
+      <img alt={title} src={src} className="h-[400px] xl:h-[500px]" />
       <h2 className="font-PassionOne text-4xl">{title}</h2>
       <p className="text-rose-800 text-3xl font-Poppins">
         <sup>$</sup>
