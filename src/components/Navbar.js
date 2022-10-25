@@ -3,10 +3,7 @@ import HamburgerMenu from "./HamburgerMenu";
 
 const Navbar = () => {
   return (
-    <nav
-      className="grid grid-cols-12 w-11/12 mx-auto my-8 bg-primary bg-clip-text text-transparent 
-    md:bg-none md:bg-clip-border md:text-black items-center"
-    >
+    <nav className="grid grid-cols-12 w-11/12 mx-auto my-8 text-black items-center">
       <Link to="." className="font-[Monoton] text-3xl col-span-4">
         Figure
       </Link>
