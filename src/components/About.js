@@ -4,9 +4,9 @@ const About = () => {
       <img
         alt="actionFigure"
         src="./about.webp"
-        className="col-span-6 max-h-[740px]"
+        className="col-span-12 md:col-span-6 max-h-[740px]"
       />
-      <div className="col-span-6 flex justify-center items-center flex-col gap-20 capitalize">
+      <div className="col-span-12 md:col-span-6 flex justify-center items-center flex-col gap-20 capitalize">
         <h2 className="font-PassionOne text-5xl">what is an action figure</h2>
         <p className="font-[Poppins] text-2xl leading-10">
           An action figure is a poseable character model figure made most
