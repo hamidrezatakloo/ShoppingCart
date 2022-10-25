@@ -1,6 +1,6 @@
 const Card = ({ src, title, price }) => {
   return (
-    <div className="col-span-4">
+    <div className="col-span-4 flex flex-col justify-around">
       <img alt={title} src={src} />
       <h2 className="font-PassionOne text-4xl">{title}</h2>
       <p className="text-rose-800 text-3xl font-Poppins">
