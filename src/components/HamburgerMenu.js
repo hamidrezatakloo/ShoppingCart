@@ -12,7 +12,7 @@ const HamburgerMenu = () => {
         <div className="w-8/12 bg-white h-[2px] m-1"></div>
         <div className="w-8/12 bg-white h-[2px] m-1"></div>
       </button>
-      {click && <OverLayer setClick={setClick} />}
+      {<OverLayer setClick={setClick} click={click} />}
     </Fragment>
   );
 };
