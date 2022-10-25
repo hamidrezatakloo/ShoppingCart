@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <div className="grid grid-cols-12 w-11/12 mx-auto gap-[20px] flex-1">
+    <div className="grid grid-cols-12 w-11/12 mx-auto gap-[20px] flex-1 items-center">
       <img
         alt="actionFigure"
         src="./about.webp"
