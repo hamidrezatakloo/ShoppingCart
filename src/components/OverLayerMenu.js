@@ -23,18 +23,21 @@ const OverLayer = ({ click, setClick }) => {
           <Link
             to="."
             className="font-[Poppins]  text-2xl z-30 text-black block w-full text-center py-[20px] border-y-2 border-gray-200"
+            onClick={handleClose}
           >
             Home
           </Link>
           <Link
             to="/Store"
             className="font-[Poppins]  text-2xl z-30 text-black block w-full text-center py-[20px] border-y-2 border-gray-200"
+            onClick={handleClose}
           >
             Store
           </Link>
           <Link
             to="/About"
             className="font-[Poppins]  text-2xl z-30 text-black block w-full text-center py-[20px] border-y-2 border-gray-200"
+            onClick={handleClose}
           >
             About
           </Link>
