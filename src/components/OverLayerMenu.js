@@ -16,19 +16,19 @@ const OverLayer = ({ setClick }) => {
         </button>
         <Link
           to="."
-          className="font-[Poppins]  text-2xl z-30 text-black block w-full text-center py-[40px] border-y-2 border-gray-200"
+          className="font-[Poppins]  text-2xl z-30 text-black block w-full text-center py-[20px] border-y-2 border-gray-200"
         >
           Home
         </Link>
         <Link
           to="/Store"
-          className="font-[Poppins]  text-2xl z-30 text-black block w-full text-center py-[40px] border-y-2 border-gray-200"
+          className="font-[Poppins]  text-2xl z-30 text-black block w-full text-center py-[20px] border-y-2 border-gray-200"
         >
           Store
         </Link>
         <Link
           to="/About"
-          className="font-[Poppins]  text-2xl z-30 text-black block w-full text-center py-[40px] border-y-2 border-gray-200"
+          className="font-[Poppins]  text-2xl z-30 text-black block w-full text-center py-[20px] border-y-2 border-gray-200"
         >
           About
         </Link>
