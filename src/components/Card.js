@@ -7,7 +7,7 @@ const Card = ({ src, title, price }) => {
         <sup>$</sup>
         {price}
       </p>
-      <button className="bg-emerald-500 py-2 px-8 text-white">
+      <button className="bg-emerald-500 py-2 px-8 text-white font-Poppins">
         Add To Card
       </button>
     </div>
