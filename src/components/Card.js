@@ -1,6 +1,6 @@
 const Card = ({ src, title, price }) => {
   return (
-    <div>
+    <div className="col-span-4">
       <img alt={title} src={src} />
       <h2>{title}</h2>
       <div>{price}</div>
