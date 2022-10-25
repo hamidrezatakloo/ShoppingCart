@@ -7,7 +7,7 @@ const Card = ({ src, title, price }) => {
         <sup>$</sup>
         {price}
       </p>
-      <button>Add To Card</button>
+      <button className="bg-emerald-500">Add To Card</button>
     </div>
   );
 };
