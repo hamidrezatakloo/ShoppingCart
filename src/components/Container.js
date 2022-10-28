@@ -15,10 +15,12 @@ const Container = (props) => {
         <Route path="/" element={<Home />}></Route>
         <Route
           path="/Store"
-          element={<Store setShops={setShops} setBadges={setBadges} />}
+          element={
+            <Store shops={shops} setShops={setShops} setBadges={setBadges} />
+          }
         ></Route>
         <Route path="/About" element={<About />}></Route>
-        <Route path="/Payment" element={<Payment />}></Route>
+        <Route path="/Payment" element={<Payment shops={shops} />}></Route>
       </Routes>
     </BrowserRouter>
   );
