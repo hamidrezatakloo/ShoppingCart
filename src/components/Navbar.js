@@ -26,6 +26,12 @@ const Navbar = () => {
       >
         About
       </Link>
+      <Link
+        to="/payment"
+        className="font-[Poppins] col-span-2 text-xl hidden md:block"
+      >
+        <img alt="shoppingCart" src="./shoppingCart.svg" />
+      </Link>
     </nav>
   );
 };
