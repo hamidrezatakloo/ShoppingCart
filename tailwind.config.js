@@ -6,6 +6,9 @@ module.exports = {
       fontFamily: {
         PassionOne: "Passion One",
       },
+      backgroundImage: {
+        primary: "linear-gradient(135deg, #42e695 0%,#3bb2b8 100%)",
+      },
       keyframes: {
         drop: {
           "0%": { width: "0" },
