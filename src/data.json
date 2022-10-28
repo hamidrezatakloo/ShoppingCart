@@ -1,36 +1,36 @@
 [
     {
         "title":"naruto Six Paths Sage Mode Action figure",
-        "src":"./actionFigurenaruto.jpg",
+        "src":"./actionFigurenaruto.png",
         "price":"14,99"
     }
     ,
     {
         "title":"akatsuki itachi action figure",
-        "src":"./actionFigureItachi.jpg",
+        "src":"./actionFigureItachi.png",
         "price":"16,99"
     }
     ,
     {
         "title":"gara Action figure",
-        "src":"./actionFigureGara.jpg",
+        "src":"./actionFigureGara.png",
         "price":"12,99"
     },
     {
         "title":"ace action figure",
-        "src":"./ActionFigureAce.jpg",
+        "src":"./ActionFigureAce.png",
         "price":"14,99"
     }
     ,
     {
         "title":"chooper action figure",
-        "src":"./actionFigureChooper.jpg",
+        "src":"./actionFigureChooper.png",
         "price":"10,99"
     }
     ,
     {
         "title":"nobara Action figure",
-        "src":"./actionFigureNobara.jpg",
+        "src":"./actionFigureNobara.png",
         "price":"10,99"
     }
     
