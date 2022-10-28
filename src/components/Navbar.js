@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import HamburgerMenu from "./HamburgerMenu";
 
-const Navbar = () => {
+const Navbar = (props) => {
   return (
     <nav className="grid grid-cols-12 w-11/12 mx-auto my-8 text-black items-center">
       <Link to="." className="font-[Monoton] text-3xl col-span-4">
@@ -35,7 +35,7 @@ const Navbar = () => {
           className="rounded-full inline-block w-[30px] h-[30px] bg-green-400 flex items-center justify-center text-white font-bold
          absolute left-[50px] top-2 p-2"
         >
-          0
+          {props.badges}
         </span>
       </Link>
     </nav>
