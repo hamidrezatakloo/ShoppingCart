@@ -28,9 +28,15 @@ const Navbar = () => {
       </Link>
       <Link
         to="/payment"
-        className="font-[Poppins] col-span-2 text-xl hidden md:block"
+        className="font-[Poppins] col-span-2 text-xl hidden md:block relative"
       >
         <img alt="shoppingCart" src="./shoppingCart.svg" />
+        <span
+          className="rounded-full inline-block w-[30px] h-[30px] bg-green-400 flex items-center justify-center text-white font-bold
+         absolute left-[50px] top-2 p-2"
+        >
+          0
+        </span>
       </Link>
     </nav>
   );
