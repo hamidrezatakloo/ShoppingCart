@@ -4,6 +4,7 @@ import Home from "./Home";
 import Store from "./Store";
 import About from "./About";
 import { useState } from "react";
+import Payment from "./Payment";
 const Container = (props) => {
   const [badges, setBadges] = useState(0);
   const [shops, setShops] = useState([]);
@@ -17,6 +18,7 @@ const Container = (props) => {
           element={<Store setShops={setShops} setBadges={setBadges} />}
         ></Route>
         <Route path="/About" element={<About />}></Route>
+        <Route path="/Payment" element={<Payment />}></Route>
       </Routes>
     </BrowserRouter>
   );
