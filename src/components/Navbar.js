@@ -27,7 +27,7 @@ const Navbar = (props) => {
         About
       </Link>
       <Link
-        to="/payment"
+        to="/Payment"
         className="font-[Poppins] col-span-2 text-xl hidden md:block relative"
       >
         <img alt="shoppingCart" src="./shoppingCart.svg" />
