@@ -1,4 +1,8 @@
-const Card = ({ src, title, price }) => {
+const Card = ({ src, title, price, setShops, setBadges }) => {
+  const AddCard = () => {
+    setBadges((bgs) => bgs + 1);
+    setShops((sh) => [...sh, { src: src, title: title, price: price }]);
+  };
   return (
     <div className="col-span-12  sm:col-span-6 md:col-span-6 lg:col-span-4 flex flex-col items-center justify-between border-1 border-gray-200 shadow-md">
       <img alt={title} src={src} className="h-[400px] xl:h-[500px]" />
@@ -9,7 +13,10 @@ const Card = ({ src, title, price }) => {
         <sup>$</sup>
         {price}
       </p>
-      <button className="bg-emerald-500 py-2 px-8 text-white font-Poppins text-lg font-bold my-4">
+      <button
+        className="bg-emerald-500 py-2 px-8 text-white font-Poppins text-lg font-bold my-4"
+        onClick={AddCard}
+      >
         Add To Card
       </button>
     </div>
