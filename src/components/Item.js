@@ -1,6 +1,6 @@
 const Item = ({ src, title, price, number }) => {
   return (
-    <div className="col-span-12 flex items-center p-4  bg-primary text-white font-[Poppins] font-bold rounded flex-col lg:flex-row">
+    <div className="col-span-12 flex items-center p-4  bg-primary text-white font-[Poppins] font-bold rounded flex-col lg:flex-row cursor-pointer hover:opacity-90">
       <div className=" w-[300px] grid place-items-center shrink-0">
         <img alt="actionFigure" src={src} className="h-[300px]" />
       </div>
