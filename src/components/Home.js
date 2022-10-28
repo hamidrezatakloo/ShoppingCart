@@ -16,7 +16,7 @@ const Home = () => {
       />
       <Link
         to="/store"
-        className="self-start capitalize bg-primary text-white py-4 px-8 w-fit whitespace-nowrap rounded text-lg font-semibold font-[Poppins]
+        className="self-start capitalize text-white py-4 px-8 w-fit whitespace-nowrap rounded text-lg font-semibold font-[Poppins]
          bg-black"
       >
         go to store
