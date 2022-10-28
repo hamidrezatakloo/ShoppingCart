@@ -10,6 +10,7 @@ const Store = (props) => {
           src={d.src}
           title={d.title}
           price={d.price}
+          shops={props.shops}
           setShops={props.setShops}
           setBadges={props.setBadges}
         />

@@ -1,7 +1,22 @@
-const Card = ({ src, title, price, setShops, setBadges }) => {
+const Card = ({ src, title, price, setShops, setBadges, shops }) => {
   const AddCard = () => {
     setBadges((bgs) => bgs + 1);
-    setShops((sh) => [...sh, { src: src, title: title, price: price }]);
+
+    if (shops.some((s) => s.title === title)) {
+      setShops(
+        shops.map((sh) => {
+          if (sh.title === title) sh.number += 1;
+          return sh;
+        })
+      );
+
+      return;
+    }
+
+    setShops((sh) => [
+      ...sh,
+      { src: src, title: title, price: price, number: 1 },
+    ]);
   };
   return (
     <div className="col-span-12  sm:col-span-6 md:col-span-6 lg:col-span-4 flex flex-col items-center justify-between border-1 border-gray-200 shadow-md">
