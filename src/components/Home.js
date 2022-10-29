@@ -17,7 +17,7 @@ const Home = () => {
       <Link
         to="/store"
         className="self-start capitalize text-white py-4 px-8 w-fit whitespace-nowrap rounded text-lg font-semibold font-[Poppins]
-         bg-black"
+         bg-black hover:bg-white hover:text-black hover:border-4 hover:border-black animate-bounce transition-all hover:text-4xl"
       >
         go to store
       </Link>

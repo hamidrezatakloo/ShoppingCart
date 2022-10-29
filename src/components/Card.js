@@ -29,7 +29,8 @@ const Card = ({ src, title, price, setShops, setBadges, shops }) => {
         {price}
       </p>
       <button
-        className="bg-emerald-500 py-2 px-8 text-white font-Poppins text-lg font-bold my-4"
+        className="bg-emerald-500 py-2 px-8 text-white font-Poppins text-lg font-bold my-4 hover:scale-125 transition-all
+        hover:bg-white hover:text-emerald-500 hover:border-2 hover:border-emerald-500 active:animate-scaleUp"
         onClick={AddCard}
       >
         Add To Card
