@@ -15,7 +15,7 @@ const Home = () => {
         className="hidden md:block col-start-7 col-span-6 "
       />
       <Link
-        to="/store"
+        to="/ShoppingCart/store"
         className="self-start capitalize text-white py-4 px-8 w-fit whitespace-nowrap rounded text-lg font-semibold font-[Poppins]
          bg-black hover:bg-white hover:text-black hover:border-4 hover:border-black animate-bounce transition-all hover:text-4xl"
       >

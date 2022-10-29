@@ -4,30 +4,30 @@ import HamburgerMenu from "./HamburgerMenu";
 const Navbar = (props) => {
   return (
     <nav className="grid grid-cols-12 w-11/12 mx-auto my-8 text-black items-center">
-      <Link to="." className="font-[Monoton] text-3xl col-span-3">
+      <Link to="/ShoppingCart/" className="font-[Monoton] text-3xl col-span-3">
         Figure
       </Link>
       <HamburgerMenu />
       <Link
-        to="."
+        to="/ShoppingCart/"
         className="font-[Poppins] col-span-2 text-xl hidden md:block hover:font-bold hover:scale-110 transition-all text-center hover:border-x-2 border-black"
       >
         Home
       </Link>
       <Link
-        to="/Store"
+        to="/ShoppingCart/Store"
         className="font-[Poppins] col-span-2 text-xl hidden md:block hover:font-bold hover:scale-110 transition-all text-center hover:border-x-2 border-black"
       >
         Store
       </Link>
       <Link
-        to="/About"
+        to="/ShoppingCart/About"
         className="font-[Poppins] col-span-2 text-xl hidden md:block hover:font-bold hover:scale-110 transition-all text-center hover:border-x-2 border-black"
       >
         About
       </Link>
       <Link
-        to="/Payment"
+        to="/ShoppingCart/Payment"
         className="font-[Poppins] md:col-start-11 col-span-2 text-xl  relative hover:scale-110 transition-all"
       >
         <img alt="shoppingCart" src="./shoppingCart.svg" />

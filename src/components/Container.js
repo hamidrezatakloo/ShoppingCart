@@ -12,16 +12,16 @@ const Container = (props) => {
     <BrowserRouter>
       <Navbar badges={badges} />
       <Routes>
-        <Route path="/" element={<Home />}></Route>
+        <Route path="/ShoppingCart/" element={<Home />}></Route>
         <Route
-          path="/Store"
+          path="/ShoppingCart/Store"
           element={
             <Store shops={shops} setShops={setShops} setBadges={setBadges} />
           }
         ></Route>
-        <Route path="/About" element={<About />}></Route>
+        <Route path="/ShoppingCart/About" element={<About />}></Route>
         <Route
-          path="/Payment"
+          path="/ShoppingCart/Payment"
           element={
             <Payment shops={shops} setShops={setShops} setBadges={setBadges} />
           }
