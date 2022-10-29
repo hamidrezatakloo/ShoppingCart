@@ -18,10 +18,15 @@ module.exports = {
           "0%": { width: "66.666667%" },
           "100%": { width: "0" },
         },
+        scaleUp: {
+          "0%": { transform: "scale(.5)" },
+          "100%": { transform: "scale(1)" },
+        },
       },
       animation: {
         drop: "drop 1s ease-in-out forwards",
         close: "close 1s ease-in-out forwards",
+        scaleUp: "scaleUp 1.5s linear both",
       },
     },
   },
