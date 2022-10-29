@@ -44,6 +44,13 @@ const OverLayer = ({ click, setClick }) => {
         >
           About
         </Link>
+        <Link
+          to="/Payment"
+          className="font-[Poppins]  text-2xl z-30 text-black block w-full text-center py-[20px] border-y-2 border-gray-200"
+          onClick={handleClose}
+        >
+          Payment
+        </Link>
       </div>
     </Fragment>
   );
