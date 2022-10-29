@@ -20,7 +20,12 @@ const Container = (props) => {
           }
         ></Route>
         <Route path="/About" element={<About />}></Route>
-        <Route path="/Payment" element={<Payment shops={shops} />}></Route>
+        <Route
+          path="/Payment"
+          element={
+            <Payment shops={shops} setShops={setShops} setBadges={setBadges} />
+          }
+        ></Route>
       </Routes>
     </BrowserRouter>
   );
